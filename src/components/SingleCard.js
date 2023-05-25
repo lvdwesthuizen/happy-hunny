@@ -13,6 +13,9 @@ export default function SingleCard({
 			handleChoice(card);
 		}
 	};
+	const filepath = window.location.origin + window.location.pathname;
+
+	console.log(window.location.origin + window.location.pathname);
 
 	return (
 		<div
@@ -20,22 +23,16 @@ export default function SingleCard({
 				gameComplete ? 'card completed' : flipped ? 'card flipped' : 'card'
 			}
 		>
-			<img
-				className='front'
-				src={`https://lvdwesthuizen.github.io/happy-hunny/${card.src}`}
-				alt='card front'
-			/>
+			<img className='front' src={`${filepath}${card.src}`} alt='card front' />
 			<img
 				className='back'
-				src={`https://lvdwesthuizen.github.io/happy-hunny/images/cover.svg`}
+				src={`${filepath}/images/cover.svg`}
 				onClick={handleClick}
 				alt='card back'
 			/>
 			<img
 				className='alphabet'
-				src={`https://lvdwesthuizen.github.io/happy-hunny/images/cards-complete/card-${
-					index + 1
-				}-complete.svg`}
+				src={`${filepath}/images/cards-complete/card-${index + 1}-complete.svg`}
 				alt='card complete'
 			/>
 		</div>
