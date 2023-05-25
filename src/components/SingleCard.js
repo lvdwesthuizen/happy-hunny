@@ -20,16 +20,22 @@ export default function SingleCard({
 				gameComplete ? 'card completed' : flipped ? 'card flipped' : 'card'
 			}
 		>
-			<img className='front' src={card.src} alt='card front' />
+			<img
+				className='front'
+				src={`https://lvdwesthuizen.github.io/happy-hunny/${card.src}`}
+				alt='card front'
+			/>
 			<img
 				className='back'
-				src='/images/cover.svg'
+				src={`https://lvdwesthuizen.github.io/happy-hunny/images/cover.svg`}
 				onClick={handleClick}
 				alt='card back'
 			/>
 			<img
 				className='alphabet'
-				src={`/images/cards-complete/card-${index + 1}-complete.svg`}
+				src={`https://lvdwesthuizen.github.io/happy-hunny/images/cards-complete/card-${
+					index + 1
+				}-complete.svg`}
 				alt='card complete'
 			/>
 		</div>
