@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/happy-hunny/static/css/main.062115e9.chunk.css",
+    "main.js": "/happy-hunny/static/js/main.79abdc1b.chunk.js",
+    "main.js.map": "/happy-hunny/static/js/main.79abdc1b.chunk.js.map",
+    "runtime-main.js": "/happy-hunny/static/js/runtime-main.ef907fdc.js",
+    "runtime-main.js.map": "/happy-hunny/static/js/runtime-main.ef907fdc.js.map",
+    "static/js/2.aebfb805.chunk.js": "/happy-hunny/static/js/2.aebfb805.chunk.js",
+    "static/js/2.aebfb805.chunk.js.map": "/happy-hunny/static/js/2.aebfb805.chunk.js.map",
+    "index.html": "/happy-hunny/index.html",
+    "static/css/main.062115e9.chunk.css.map": "/happy-hunny/static/css/main.062115e9.chunk.css.map",
+    "static/js/2.aebfb805.chunk.js.LICENSE.txt": "/happy-hunny/static/js/2.aebfb805.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/happy-hunny/static/media/img-bg-mobile.9a588b0b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef907fdc.js",
+    "static/js/2.aebfb805.chunk.js",
+    "static/css/main.062115e9.chunk.css",
+    "static/js/main.79abdc1b.chunk.js"
+  ]
+}
