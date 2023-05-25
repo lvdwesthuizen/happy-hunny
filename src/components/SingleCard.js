@@ -15,8 +15,6 @@ export default function SingleCard({
 	};
 	const filepath = window.location.origin + window.location.pathname;
 
-	console.log(window.location.origin + window.location.pathname);
-
 	return (
 		<div
 			className={
