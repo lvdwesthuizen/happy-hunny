@@ -1,4 +1,5 @@
 {
+	"homepage": "https://lvdwesthuizen.github.io/",
 	"name": "happy-hunny",
 	"version": "0.1.0",
 	"private": true,
@@ -44,6 +45,5 @@
 	},
 	"devDependencies": {
 		"gh-pages": "^5.0.0"
-	},
-	"homepage": "http://lvdwesthuizen.github.io/happy-hunny"
+	}
 }
