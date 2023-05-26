@@ -34,10 +34,10 @@ function App() {
 	const [moves, setMoves] = useState(0);
 	const [totalMatched, setTotalMatched] = useState(0);
 	const [totalRounds, setTotalRounds] = useState(
-		localStorage.getItem('totalRounds') || 0
+		parseInt(localStorage.getItem('totalRounds')) || 0
 	);
 	const [accuracy, setAccuracy] = useState(
-		localStorage.getItem('accuracy') || 0
+		parseInt(localStorage.getItem('accuracy')) || 0
 	); // accuracy = score
 	const [gameOver, setGameOver] = useState(false);
 	const [gameComplete, setGameComplete] = useState(false);
